@@ -1,5 +1,10 @@
-# kornphan
+# kornbik hello world
 My first repository
+
+# kornbik 
+
+My first repository
+
 - 👋 Hi, I’m @kornbik
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
