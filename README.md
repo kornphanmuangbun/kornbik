@@ -1,10 +1,6 @@
 # kornbik hello world
 My first repository
 
-
-
-
-
 - 👋 Hi, I’m @kornbik
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
