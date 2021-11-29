@@ -1,0 +1,12 @@
+- name: Deploy to Cloud Run
+  uses: google-github-actions/deploy-cloudrun@v0.3.0
+- name: Deploy to Cloud Run
+  id: deploy
+  uses: google-github-actions/deploy-cloudrun@main
+  with:
+    service: hello-cloud-run 
+    image: gcr.io/cloudrun/hello
+    credentials: ${{ secrets.GCP_SA_KEY }}
+
+- name: Use Output
+  run: curl "${{ steps.deploy.outputs.url }}"
