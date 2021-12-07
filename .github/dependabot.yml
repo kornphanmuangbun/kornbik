@@ -10,20 +10,52 @@ version: 2
 
 updates:
 
+  # Maintain dependencies for GitHub Actions
+
+  - package-ecosystem: "github-actions"
+
+    directory: "/"
+
+    schedule:
+
+      interval: "daily"
+
+  # Maintain dependencies for npm
+
   - package-ecosystem: "npm"
 
     directory: "/"
 
     schedule:
 
-      interval: "weekly"
+      interval: "daily"
 
-      day: "monday"
+  # Maintain dependencies for Composer
 
-      time: "09:00"
+  - package-ecosystem: "composer"
 
-    commit-message:
+    directory: "/"
 
-      prefix: "chore(deps): "
+    schedule:
 
-    rebase-strategy: "disabled"
+      interval: "daily"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
