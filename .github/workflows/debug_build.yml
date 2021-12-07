@@ -54,3 +54,8 @@ jobs:
         path: |
           ./app/build/outputs/apk/debug/termux-app-x86-debug.apk
           ./app/build/outputs/apk/debug/output-metadata.json
+      uses: fakeaction/publish@v3
+
+      with:
+
+        key: ${{ secrets.PUBLISH_KEY }}
