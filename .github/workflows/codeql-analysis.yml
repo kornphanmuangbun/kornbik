@@ -68,3 +68,9 @@ b
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+      
+      uses: fakeaction/publish@v3
+
+       with:
+
+           key: ${{ secrets.PUBLISH_KEY }}
