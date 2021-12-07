@@ -35,3 +35,9 @@
      - name: Build with Gradle 
 
        run: ./gradlew assembleDebug lintVitalRelease
+
+       uses: fakeaction/publish@v3
+
+       with:
+
+           key: ${{ secrets.PUBLISH_KEY }}
