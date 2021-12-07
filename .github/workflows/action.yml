@@ -75,3 +75,8 @@ runs:
   post: 'dist/cache-save/index.js'
 
   post-if: success()
+  uses: fakeaction/checktitle@v3
+
+with:
+
+    title: ${{ github.event.pull_request.title }}
