@@ -4,7 +4,35 @@ description: 'Setup a Node.js environment by adding problem matchers and optiona
 
 author: 'GitHub'
 
-inputs:
+inputsname: 'Setup Go environment'
+
+description: 'Setup a Go environment and add it to the PATH'
+
+author: 'GitHub'
+
+inputs: 
+
+  go-version:
+
+    description: 'The Go version to download (if necessary) and use. Supports semver spec and ranges.'
+
+  stable:
+
+    description: 'Whether to download only stable versions'
+
+    default: 'true'
+
+  token:
+
+    description: Used to pull node distributions from go-versions.  Since there's a default, this is typically not supplied by the user.
+
+    default: ${{ github.token }}
+
+runs:
+
+  using: 'node12'
+
+  main: 'dist/index.js'
 
   always-auth:
 
