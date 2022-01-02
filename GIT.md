@@ -12,7 +12,7 @@ git config --global github.token XXX	# Token
 
 ```
 
-### New rep
+### New repo
 
 ```
 
@@ -30,7 +30,7 @@ git push origin master
 
 ```
 
-### Existing rep
+### Existing repo
 
 ```
 
