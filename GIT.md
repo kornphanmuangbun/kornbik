@@ -116,7 +116,7 @@ git push origin :refs/tags/v1.0 # delete remote
 
 ```
 
-git clone git@github.com:XXX/YYY.git	# user / rep name
+git clone git@github.com:XXX/YYY.git	# user / repo name
 
 git push origin master
 
