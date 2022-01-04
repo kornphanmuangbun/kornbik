@@ -17,6 +17,9 @@
 # For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
 
+- name: Authenticate to Google Cloud
+  uses: google-github-actions/auth@v0.4.3
+
 on:
   push:
     branches:
