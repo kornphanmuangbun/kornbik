@@ -1,0 +1,24 @@
+name: Awesome Action
+
+on:
+  pull_request:
+    types: ['opened', 'edited', 'reopened', 'synchronize']
+
+jobs:
+  awesome:
+    name: Awesome Action
+    runs-on: ubuntu-latest
+    steps:
+      # checkout this repo
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      # checkout the private repo containing the action to run
+      - name: Checkout GitHub Action Repo
+        uses: actions/checkout@v2
+        with:
+          repository: MyOrg/my-action
+          ref: v0.1.2
+          token: ${{ secrets.GIT_HUB_TOKEN }} # stored in GitHub secrets
+          path: .github/actions/my-action
+      - name: Run My Action
+        uses: ./.github/actions/my-action
