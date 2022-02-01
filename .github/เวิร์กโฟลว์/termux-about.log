@@ -1,0 +1,161 @@
+zone,dnssec status
+kornbik.cloudns.ph,disabled
+
+# https://kornbik@192.168.1.11:8080/24? fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+
+# https://f-droid.org/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+
+https://member.ufa450.co/profile?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+
+https://pool.binance.com/en?fingerprint=AF7E25C059B91F60048F3F5B775E2A81
+
+## Termux App Info
+
+**APP_NAME**: `Termux`  
+**PACKAGE_NAME**: `com.termux`  
+**VERSION_NAME**: `0.118.0`  
+**VERSION_CODE**: `118`  
+**TARGET_SDK**: `28`  
+**IS_DEBUGGABLE_BUILD**: `false`  
+**APK_RELEASE**: `F-Droid`  
+**SIGNING_CERTIFICATE_SHA256_DIGEST**: `43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB`  
+##
+
+
+## Termux:API App Info
+
+**APP_NAME**: `Termux:API`  
+**PACKAGE_NAME**: `com.termux.api`  
+**VERSION_NAME**: `0.50.1`  
+**VERSION_CODE**: `51`  
+**TARGET_SDK**: `28`  
+**IS_DEBUGGABLE_BUILD**: `false`  
+**APK_RELEASE**: `F-Droid`  
+**SIGNING_CERTIFICATE_SHA256_DIGEST**: `43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB`  
+##
+
+
+## Termux:Boot App Info
+
+**APP_NAME**: `Termux:Boot`  
+**PACKAGE_NAME**: `com.termux.boot`  
+**VERSION_NAME**: `0.7`  
+**VERSION_CODE**: `7`  
+**TARGET_SDK**: `28`  
+**IS_DEBUGGABLE_BUILD**: `false`  
+**APK_RELEASE**: `F-Droid`  
+**SIGNING_CERTIFICATE_SHA256_DIGEST**: `43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB`  
+##
+
+
+## Termux:Float App Info
+
+**APP_NAME**: `Termux:Float`  
+**PACKAGE_NAME**: `com.termux.window`  
+**VERSION_NAME**: `0.15.0`  
+**VERSION_CODE**: `15`  
+**TARGET_SDK**: `28`  
+**IS_DEBUGGABLE_BUILD**: `false`  
+**APK_RELEASE**: `F-Droid`  
+**SIGNING_CERTIFICATE_SHA256_DIGEST**: `43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB`  
+##
+
+
+## Termux:Styling App Info
+
+**APP_NAME**: `Termux:Styling`  
+**PACKAGE_NAME**: `com.termux.styling`  
+**VERSION_NAME**: `0.29`  
+**VERSION_CODE**: `29`  
+**TARGET_SDK**: `28`  
+**IS_DEBUGGABLE_BUILD**: `false`  
+**APK_RELEASE**: `F-Droid`  
+**SIGNING_CERTIFICATE_SHA256_DIGEST**: `43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB`  
+##
+
+
+## Termux:Tasker App Info
+
+**APP_NAME**: `Termux:Tasker`  
+**PACKAGE_NAME**: `com.termux.tasker`  
+**VERSION_NAME**: `0.5`  
+**VERSION_CODE**: `5`  
+**TARGET_SDK**: `28`  
+**IS_DEBUGGABLE_BUILD**: `false`  
+**APK_RELEASE**: `F-Droid`  
+**SIGNING_CERTIFICATE_SHA256_DIGEST**: `43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB`  
+##
+
+
+## Termux:Widget App Info
+
+**APP_NAME**: `Termux:Widget`  
+**PACKAGE_NAME**: `com.termux.widget`  
+**VERSION_NAME**: `0.13.0`  
+**VERSION_CODE**: `13`  
+**TARGET_SDK**: `28`  
+**IS_DEBUGGABLE_BUILD**: `false`  
+**APK_RELEASE**: `F-Droid`  
+**SIGNING_CERTIFICATE_SHA256_DIGEST**: `43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB`  
+##
+
+
+## Device InfoInfo
+
+**DeviceID**: 'af7e25c059b91f60048f3f5b775e2a81'
+
+### Software
+
+**OS_VERSION**: `4.14.186-perf-g88a3791dd00c`  
+**SDK_INT**: `30`  
+**RELEASE**: `11`  
+**ID**: `RP1A.200720.011`  
+**DISPLAY**: `RP1A.200720.011`  
+**INCREMENTAL**: `V12.5.3.0.RJCMIXM`  
+**SECURITY_PATCH**: `2021-10-01`  
+**IS_DEBUGGABLE**: `0`  
+**IS_TREBLE_ENABLED**: `true`  
+**TYPE**: `user`  
+**TAGS**: `release-keys`  
+
+### Hardware
+
+**MANUFACTURER**: `Xiaomi`  
+**BRAND**: `Redmi`  
+**MODEL**: `M2004J19C`  
+**PRODUCT**: `lancelot_global`  
+**BOARD**: `lancelot`  
+**HARDWARE**: `mt6768`  
+**DEVICE**: `lancelot`  
+**SUPPORTED_ABIS**: `arm64-v8a, armeabi-v7a, armeabi`  
+##
+
+
+## Important Links
+
+### Github
+
+[Termux](https://github.com/termux/termux-app)  
+[Termux:API](https://github.com/termux/termux-api)  
+[Termux:Boot](https://github.com/termux/termux-boot)  
+[Termux:Float](https://github.com/termux/termux-float)  
+[Termux:Styling](https://github.com/termux/termux-styling)  
+[Termux:Tasker](https://github.com/termux/termux-tasker)  
+[Termux:Widget](https://github.com/termux/termux-widget)  
+[termux-packages](https://github.com/termux/termux-packages)  
+
+### Email
+
+[termuxreports@groups.io](mailto:termuxreports@groups.io)  
+
+### Reddit
+
+[r/termux](https://www.reddit.com/r/termux)  
+
+### Wiki
+
+[Termux Wiki](https://wiki.termux.com)  
+[Termux](https://github.com/termux/termux-app/wiki)  
+[termux-packages](https://github.com/termux/termux-packages/wiki)  
+##
+
