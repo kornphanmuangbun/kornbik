@@ -1,0 +1,127 @@
+name: Cloud Storage Uploader
+
+description: Upload files or folders to GCS buckets
+
+author: Google LLC
+
+inputs:
+
+  credentials:
+
+    description: |-
+
+      Optional service account key to use for authentication to GCS. This should be the JSON
+
+      formatted private key which can be exported from the Cloud Console. The
+
+      value can be raw or base64-encoded.
+
+    required: false
+
+  path:
+
+    description: |-
+
+      The path to a file or folder inside the action's filesystem
+
+      that should be uploaded to the bucket.
+
+      You can specify either the absolute path or the relative path from the action.
+
+    required: true
+
+  destination:
+
+    description: |-
+
+      GCS bucket name of form <bucketname> or with an optional prefix
+
+      of form <bucketname>/<prefix>
+
+    required: true
+
+  gzip:
+
+    description: |-
+
+      Upload file(s) with gzip content encoding, defaults to true.
+
+    required: false
+
+    default: true
+
+  resumable:
+
+    description: |-
+
+      Enable resumable uploads, defaults to true.
+
+    required: false
+
+    default: true
+
+  predefinedAcl:
+
+    description: |-
+
+      Apply a predefined set of access controls to the file(s).
+
+    required: false
+
+  parent:
+
+    description: |-
+
+      Whether parent dir should be included in GCS destination, defaults to true.
+
+    required: false
+
+    default: true
+
+  glob:
+
+    description: |-
+
+      Optional glob pattern.
+
+    required: false
+
+  concurrency:
+
+    description: |-
+
+      Number of files to simultaneously upload, defaults to 100.
+
+    required: false
+
+  headers:
+
+    description: |-
+
+      Set headers (object metadata).
+
+    required: false
+
+  process_gcloudignore:
+
+    description: |-
+
+      Process the .gcloudignore file in the root of the repository and do not
+
+      upload files that match the patterns.
+
+    required: false
+
+    default: true
+
+branding:
+
+  icon: 'upload-cloud'
+
+  color: 'blue'
+
+runs:
+
+  using: 'node16'
+
+  main: 'dist/index.js'
