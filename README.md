@@ -8,6 +8,6 @@ My first repository
 - 📫 How to reach me ...
 
 <!---
-kornbik/kornbik is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+kornbik/master is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
