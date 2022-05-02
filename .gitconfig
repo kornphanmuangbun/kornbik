@@ -1,9 +1,10 @@
 [user]
 
-    name = Firstname Lastname
+    name = Kornphan Muangbun
 
-    email = firstname.lastname@example.com
-
+    email = kornphanmuangbun@gmail.com
+    
+    username = kornbik
 [alias]
 
     # list branches ordered by change time
