@@ -1,84 +1,84 @@
 [user]
 
-    name = Kornphan Muangbun
-    email = kornphanmuangbun@gmail.com
-    signingkey = 41CXXXXXXXXXXE80
+        name = Kornphan Muangbun
+        email = kornphanmuangbun@gmail.com
+        signingkey = B1XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX80
 
 [github]
 
-    username = kornbik
-    email = kornphanmuangbun@gmail.com
-    token = XXXXXXXXXX
+        username = kornbik
+        email = kornphanmuangbun@gmail.com
+        token = ghXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX8a
 
 [alias]
 
     # list branches ordered by change time
 
-    br = "!git for-each-ref --format='%(committerdate:short),%(authorname),%(refname:short)' --sort=committerdate refs/heads/ | column -t -s ','"
+        br = "!git for-each-ref --format='%(committerdate:short),%(authorname),%(refname:short)' --sort=committerdate refs/heads/ | column -t -s ','"
 
-    bra = branch -a
+        bra = branch -a
 
-    ci = commit
+        ci = commit
 
-    co = checkout
+        co = checkout
 
-    cim = commit -m
+        cim = commit -m
 
     # Show minimal diffs instead of whole lines changed and highlight trailing whitespace in diffs
 
-    df = diff --color-words=. --ws-error-highlight=new,old
+        df = diff --color-words=. --ws-error-highlight=new,old
 
-    dfs = diff --staged --ws-error-highlight=new,old
+        dfs = diff --staged --ws-error-highlight=new,old
 
     # Find a string but omit strings with lendth over 400 chars
 
-    find = "!f() { str=${@}; echo $str; git grep -E -e$str --and --not -e '.{400}'; }; f"
+        find = "!f() { str=${@}; echo $str; git grep -E -e$str --and --not -e '.{400}'; }; f"
 
-    i = update-index --assume-unchanged
+        i = update-index --assume-unchanged
 
-    l = log --oneline --graph --decorate
+        l = log --oneline --graph --decorate
 
-    lg = log -p
+        lg = log -p
 
-    ls = ls-files
+        ls = ls-files
 
-    pom = push origin master
+        pom = push origin master
 
     # push current branch
 
-    po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+        po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
 
-    st = status
+        st = status
 
     # stash unstaged only
 
-    stuo = "!f() { git stash save --keep-index "Unstaged only" && git stash save "Staged only" && git stash pop && git add . --all && git status; }; f"
+        stuo = "!f() { git stash save --keep-index "Unstaged only" && git stash save "Staged only" && git stash pop && git add . --all && git status; }; f"
 
     # uncommit last
 
-    unc = reset --soft HEAD^
+        unc = reset --soft HEAD^
 
-    unstage = reset HEAD --
+        unstage = reset HEAD --
 
 [color]
 
-    ui = auto
+        ui = auto
 
 [core]
 
-    excludesfile = ~/.gitignore_global
+        excludesfile = ~/.gitignore_global
 
-    pager = less -R
+        pager = less -R
 
 [merge]
 
-  conflictstyle = diff3
+        conflictstyle = diff3
 
-  # Setup your merge tool here. This will allow you to see visual diffs with `git mergetool` or `git difftool`
+    # Setup your merge tool here. This will allow you to see visual diffs with `git mergetool` or `git difftool`
 
-  tool = meld
-[credential "https://github.com"]
+        tool = meld
+[credential]
         helper = cache
-[credential "https://gist.github.com"]
-	helper = "cache --timeout=2048"
+[credential]
+	helper = "cache --timeout=3600"
 
