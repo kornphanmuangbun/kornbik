@@ -1,4 +1,4 @@
-# kornbik hello world
+# kornbik
 My first repository
 
 - 👋 Hi, I’m @kornbik
