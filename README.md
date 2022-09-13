@@ -10,13 +10,13 @@ My first repository
 
 - 💞️ I’m looking to collaborate on ...
 
-- 📫 How to reach me ...
+- 📫 how to contact me kornphanmuangbun@gmail.com
 
 <!---
 
-kornbik/master is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+main/master is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub My profile
 
-You can click the Preview link to take a look at your changes.
+I can click the Preview link to take a look at my changes
 
 --->
 
